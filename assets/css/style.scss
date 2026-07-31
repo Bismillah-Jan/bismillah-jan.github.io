@@ -87,6 +87,17 @@ main.wrap {
 
 h1, h2, h3 { line-height: 1.25; }
 
+/* Avatar */
+.avatar {
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  margin-bottom: 1.25rem;
+}
+
 /* Hero */
 .hero h1 { font-size: 2rem; margin-bottom: 0.5rem; }
 .lede { color: var(--text-muted); font-size: 1.05rem; }

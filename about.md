@@ -6,6 +6,8 @@ permalink: /about/
 
 # About Me
 
+<img class="avatar" src="{{ '/assets/images/profile.png' | relative_url }}" alt="Photo of Bismillah Jan">
+
 I'm Bismillah Jan, a Machine Learning Engineer and researcher with experience spanning medical image analysis, production ML systems, developer education, and scalable software architecture. My background covers deep learning, computer vision, NLP, and retrieval-augmented generation (RAG) systems, with a particular focus on healthcare and other high-impact applications.
 
 ## Experience
