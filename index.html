@@ -4,9 +4,23 @@ title: Home
 ---
 
 <section class="hero">
-  <img class="avatar" src="{{ '/assets/images/profile.png' | relative_url }}" alt="Photo of {{ site.author.name }}">
-  <h1>Hi, I'm {{ site.author.name }}.</h1>
-  <p class="lede">I build software and write weekly about what I'm learning. This site collects my portfolio and my blog.</p>
+  <img class="avatar avatar-hero" src="{{ '/assets/images/profile.png' | relative_url }}" alt="Photo of {{ site.author.name }}">
+
+  <span class="badge"><span class="dot"></span>Sr. ML Engineer @ DevEntia Tech</span>
+
+  <h1>👋 Hi, I'm {{ site.author.name }}.</h1>
+  <p class="lede">
+    I build <strong>machine learning systems</strong> spanning computer vision, NLP, and
+    <strong>retrieval-augmented generation</strong>, with a soft spot for healthcare applications.
+    This site collects my portfolio and my weekly notes on what I'm building and learning.
+  </p>
+
+  <p class="socials">
+    <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+    <a href="https://www.linkedin.com/in/bismillahjan222/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+    <a href="mailto:bismillahjan222@gmail.com" aria-label="Email">Email</a>
+  </p>
+
   <p class="hero-links">
     <a class="button" href="{{ '/projects/' | relative_url }}">View Projects</a>
     <a class="button ghost" href="{{ '/blog/' | relative_url }}">Read the Blog</a>
@@ -14,7 +28,8 @@ title: Home
 </section>
 
 <section class="recent-posts">
-  <h2>Recent posts</h2>
+  <h2 class="section-heading">Recent posts</h2>
+  <p class="section-sub">Weekly-ish notes on what I'm building and learning.</p>
   <ul class="post-list">
     {% for post in site.posts limit: 5 %}
       <li>

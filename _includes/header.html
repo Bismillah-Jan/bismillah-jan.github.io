@@ -1,10 +1,11 @@
-<header class="site-header">
-  <div class="wrap">
-    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+<div class="site-header-outer">
+  <header class="site-header">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
     <nav class="site-nav">
       {% for item in site.nav %}
         <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.title }}</a>
       {% endfor %}
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle theme">🌙</button>
     </nav>
-  </div>
-</header>
+  </header>
+</div>
