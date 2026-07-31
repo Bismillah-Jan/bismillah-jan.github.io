@@ -32,11 +32,7 @@ Research area: Machine Learning and Artificial Intelligence. Thesis: *Correlativ
 **BS, Computer Science** — FAST – National University of Computer and Emerging Sciences — *2011–2015* (CGPA 3.43/4)
 Final year project: *Protein Images Classification using Extended Threshold Adjacency Statistics (ETAS)*, supervised by Dr. Muhammad Tahir.
 
-## Research Publications
-
-1. Muhammad Tahir, **Bismillah Jan**, Shakir Ullah Shah, and Muhammad Amin. "Efficient computational model for classification of protein localization images using Extended Threshold Adjacency Statistics and Support Vector Machines." *Computer Methods and Programs in Biomedicine*, 157:205–215, 2018.
-2. Amina Asif, Muhammad Dawood, **Bismillah Jan**, Javaid Khurshid, Mark DeMaria, and Fayyaz ul Amir Afsar Minhas. "PHURIE: Hurricane Intensity Estimation from Infrared Satellite Imagery using Machine Learning." *Neural Computing and Applications*, 2018.
-3. Ahmad Hassan, **Bismillah Jan**, Zara Ahmad, Fatima Tahira, and Adeel Khan. "Skin Lesion Classification Using Deep Learning Techniques." In *International Conference on Green and Human IT*, South Korea, 2019.
+Full publication list, thesis, and final year project details are on the [Research]({{ '/research/' | relative_url }}) page.
 
 ## Awards & Distinctions
 
