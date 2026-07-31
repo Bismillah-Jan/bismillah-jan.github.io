@@ -1,0 +1,49 @@
+title: Bismillah Jan
+description: Portfolio and weekly blog of Bismillah Jan — software engineering, projects, and notes.
+url: "https://bismillah-jan.github.io"
+baseurl: ""
+
+author:
+  name: Bismillah Jan
+  github: bismillah-jan
+
+# Nav links shown in the header, in order
+nav:
+  - title: Home
+    url: /
+  - title: Blog
+    url: /blog/
+  - title: Projects
+    url: /projects/
+  - title: About
+    url: /about/
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules

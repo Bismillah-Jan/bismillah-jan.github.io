@@ -1,0 +1,28 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+  <h1>Hi, I'm {{ site.author.name }}.</h1>
+  <p class="lede">I build software and write weekly about what I'm learning. This site collects my portfolio and my blog.</p>
+  <p class="hero-links">
+    <a class="button" href="{{ '/projects/' | relative_url }}">View Projects</a>
+    <a class="button ghost" href="{{ '/blog/' | relative_url }}">Read the Blog</a>
+  </p>
+</section>
+
+<section class="recent-posts">
+  <h2>Recent posts</h2>
+  <ul class="post-list">
+    {% for post in site.posts limit: 5 %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+  {% if site.posts.size > 5 %}
+    <a class="see-all" href="{{ '/blog/' | relative_url }}">See all posts &rarr;</a>
+  {% endif %}
+</section>
