@@ -216,20 +216,22 @@ main.wrap {
 .socials {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.6rem;
   margin-bottom: 1.75rem;
 }
 .socials a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.4rem;
-  height: 2.4rem;
+  padding: 0.45rem 1rem;
   border: 1px solid var(--border);
-  border-radius: 50%;
+  border-radius: 999px;
   color: var(--text-muted);
   background: var(--card-bg);
   font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
 }
 .socials a:hover {
   color: var(--accent);
