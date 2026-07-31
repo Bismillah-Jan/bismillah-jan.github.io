@@ -4,7 +4,8 @@ title: Research
 permalink: /research/
 ---
 
-<h1 class="section-heading">Research</h1>
+<p class="section-eyebrow">Research</p>
+<h1 class="section-heading">Publications &amp; Research</h1>
 <p class="section-sub">Machine learning research spanning medical image analysis, bioinformatics, and remote sensing.</p>
 
 ## Research Interests

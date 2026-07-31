@@ -4,6 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
+<p class="section-eyebrow">Projects</p>
 <h1 class="section-heading">Featured Work</h1>
 <p class="section-sub">A selection of things I've built and researched.</p>
 
