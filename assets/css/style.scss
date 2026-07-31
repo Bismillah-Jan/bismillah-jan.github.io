@@ -93,7 +93,8 @@ h1, h2, h3 { line-height: 1.25; }
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;
+  background: #fff;
   border: 1px solid var(--border);
   margin: 0 auto 1.25rem;
 }
